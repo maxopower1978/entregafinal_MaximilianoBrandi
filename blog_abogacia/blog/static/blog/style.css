@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media a:hover {
+    background-color: #444444;
+}
+
+.social-media a:nth-child(6) { /* Selecciona el 6to enlace que es LinkedIn */
+    background-color: #0077b5; /* Color azul de LinkedIn */
+}
+
+.social-media a:nth-child(6):hover {
+    background-color: #005582; /* Color más oscuro al pasar el mouse */
+}

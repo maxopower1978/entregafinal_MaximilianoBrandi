@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Post</title>
+</head>
+<body>
+    <h1>Crear un Nuevo Post</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="Título" required><br>
+        <textarea name="content" placeholder="Contenido" required></textarea><br>
+        <button type="submit">Crear</button>
+    </form>
+</body>
+</html>
